@@ -10,6 +10,9 @@ class TestCalculator(unittest.TestCase):
 	def test_magic_div(self):
 		self.assertEqual(magic_div(5),2)
 
+	def test_magic_multipy(self):
+		#tests that our function multipliies correctly
+		self.assertEqual(magic_multiply(10),100)
 
 if __name__ == '__main__':
 	unittest.main()

@@ -3,7 +3,11 @@ def magic_sum(number):
 	for i in range(number+1):
 		sum+=i
 	return sum
-	
+
 def magic_div(n):
 	res=10/n
+	return res
+
+def magic_multiply(n):
+	res=10*n
 	return res
