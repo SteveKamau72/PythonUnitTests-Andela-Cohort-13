@@ -18,5 +18,9 @@ class TestCalculator(unittest.TestCase):
 		#an array is returned
 		return magic_array(100)
 
+	def test_even(self):
+		#tests even numbers
+		return magic_even(100)
+
 if __name__ == '__main__':
 	unittest.main()
