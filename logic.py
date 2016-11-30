@@ -17,7 +17,7 @@ def magic_array(number):
 	for i in range(number+1):
 		array=i
 	return array
-	
+
 def magic_even(number):
     
 	for i in range(number+1):
@@ -25,3 +25,19 @@ def magic_even(number):
 		  return "Number is even"
 	else:
 		return "Number is odd"
+		
+def generate_prime_numbers(num):
+	if num>1:
+
+	    for num in range(2,num):
+
+		    if(num%1==0):
+
+			    prime=False
+
+			    if prime:
+
+				    return num
+        else:
+	    return "Invalid number"
+

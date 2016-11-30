@@ -22,5 +22,9 @@ class TestCalculator(unittest.TestCase):
 		#tests even numbers
 		return magic_even(100)
 
+	def test_generate_primes(self):
+		#generates prime numbers
+	    return generate_prime_numbers(100)
+
 if __name__ == '__main__':
 	unittest.main()
