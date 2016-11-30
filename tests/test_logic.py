@@ -25,12 +25,16 @@ class TestCalculator(unittest.TestCase):
 	def test_generate_primes(self):
 		#generates prime numbers
 	    return generate_prime_numbers(100)
-	    
+
 	def test_isuppercase(self):
 		#tests if string has upper cases
 		self.assertTrue('ANDELA'.isupper())
 		#tests if string has lower cases
 		self.assertFalse('andela'.isupper())
+
+	def test_string(self):
+		#tests if value is string
+		return is_string('This is a random string')
 
 if __name__ == '__main__':
 	unittest.main()

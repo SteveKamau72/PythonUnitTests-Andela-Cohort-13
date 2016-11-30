@@ -25,7 +25,7 @@ def magic_even(number):
 		  return "Number is even"
 	else:
 		return "Number is odd"
-		
+
 def generate_prime_numbers(num):
 	if num>1:
 
@@ -40,4 +40,10 @@ def generate_prime_numbers(num):
 				    return num
         else:
 	    return "Invalid number"
+	    
+def is_string(string):
+	if type (string)==type(''):
+		return "Value is string"
+	else:
+		return "Value is not a string"
 
