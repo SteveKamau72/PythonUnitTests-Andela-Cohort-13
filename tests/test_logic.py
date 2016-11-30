@@ -36,5 +36,10 @@ class TestCalculator(unittest.TestCase):
 		#tests if value is string
 		return is_string('This is a random string')
 
+	def test_calculated_array(self):
+		#halfs the even numbers and doubles the odd
+		#returns array 
+		return calculated_array(200)
+
 if __name__ == '__main__':
 	unittest.main()

@@ -40,10 +40,21 @@ def generate_prime_numbers(num):
 				    return num
         else:
 	    return "Invalid number"
-	    
+
 def is_string(string):
 	if type (string)==type(''):
 		return "Value is string"
 	else:
 		return "Value is not a string"
+		
+def calculated_array(number):
+	number_array=[]
+	for i in range(number):
+		#if number is even
+		if i%2==0:
+			number_array=i/2
+		else:
+			number_array=i*2
+
+	return number_array
 
