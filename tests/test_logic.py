@@ -41,5 +41,9 @@ class TestCalculator(unittest.TestCase):
 		#returns array 
 		return calculated_array(200)
 
+	def test_error(self):
+		#test exception error raised by dividing zero
+		self.assertRaises(ZeroDivisionError,magic_div,0)
+
 if __name__ == '__main__':
 	unittest.main()
