@@ -14,5 +14,9 @@ class TestCalculator(unittest.TestCase):
 		#tests that our function multipliies correctly
 		self.assertEqual(magic_multiply(10),100)
 
+	def test_magic_array(self):
+		#an array is returned
+		return magic_array(100)
+
 if __name__ == '__main__':
 	unittest.main()

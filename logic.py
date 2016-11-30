@@ -11,3 +11,9 @@ def magic_div(n):
 def magic_multiply(n):
 	res=10*n
 	return res
+	
+def magic_array(number):
+	array=[]
+	for i in range(number+1):
+		array=i
+	return array
